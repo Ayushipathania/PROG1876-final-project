@@ -5,7 +5,7 @@
         const DB_USER = 'root';
         const DB_PASSWORD = '';
         const DB_HOST = 'localhost'; // MySQL runs on PORT 3308 instead of default port number 3306
-        const DB_NAME = 'surway';
+        const DB_NAME = '';
 
         private $dbc;
         private $sqlQuery;
@@ -159,4 +159,3 @@
             mysqli_close($this->dbc);
         }
     }
-?>
